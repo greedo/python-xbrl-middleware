@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 from xbrl import XBRLParser
-from xbrl_middleware import ExcelDump
+from xbrl_middleware import ExcelDump, OpenPyxlAdapter
 
 xbrl_parser = XBRLParser(precision=0)
 
@@ -18,4 +18,6 @@ gaap_obj = xbrl_parser.parseGAAP(xbrl,
 
 # Dump the GAAP data to XLSX (Excel)
 xbrl_dump = ExcelDump(gaap_obj)
-xbrl_dump.dump('demo.xlsx')
+dumper = xbrl_middleware.OpenPyxlAdapter(xbrl_dump)
+dumper.write('demo.xlsx')
+dumper.dump()
