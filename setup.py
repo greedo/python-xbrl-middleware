@@ -10,7 +10,7 @@ if os.path.exists('README.rst'):
 
 setup(
     name='python-xbrl-middleware',
-    version='0.0.1',
+    version='0.0.2',
     description='various python-xbrl middlewares',
     author='Joe Cabrera',
     author_email='jcabrera@eminorlabs.com',

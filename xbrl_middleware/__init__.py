@@ -5,4 +5,4 @@ from __future__ import absolute_import
 
 from .dump_excel import ExcelDump, XlsxWriterAdapter, XlwtAdapter, OpenPyxlAdapter
 
-version = (0, 0, 1)
+version = (0, 0, 2)
