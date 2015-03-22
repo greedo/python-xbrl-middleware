@@ -1,3 +1,5 @@
+|PyPI version|
+
 A collection of useful `python-xbrl <https://github.com/greedo/python-xbrl#readme>`__ middleware. See the 
 `documentation <https://github.com/greedo/python-xbrl/wiki>`__.
 
@@ -49,3 +51,6 @@ License
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the license.
+
+.. |PyPI version| image:: https://badge.fury.io/py/python-xbrl-middleware.png
+   :target: http://badge.fury.io/py/python-xbrl-middleware
