@@ -26,7 +26,7 @@ To start using the library, first import ``xbrl_middleware``
 
     from xbrl_middleware
 
-See `examples <https://github.com/greedo/python-xbrl-middleware/tree/master/examples>` of different middleware use.
+See `examples <https://github.com/greedo/python-xbrl-middleware/tree/master/examples>`__ of different middleware use.
 
 License
 -------
